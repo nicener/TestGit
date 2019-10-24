@@ -1,0 +1,99 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+    background-clip: #ffffff;
+}
+
+
+
+/*menubar*/
+.menubar {
+    background-color: #333;
+}
+
+.container-menubar {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menubar h1 {
+    font-weight: normal;
+    margin-top: 5px;
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+.menu {
+    margin: 13px 0 0 30px;
+   
+}    
+.menu a {
+    text-decoration: none;
+    padding: 14px 5px;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1px ;
+}
+
+/*style header*/
+.header {
+    height: 500px;
+    background : url(../image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.header {
+    color: #ffffff;
+    text-align: center;
+}
+
+.header-content {
+    margin-top: 14rem;
+}
+
+#home {
+    height: 400px;
+    background: #fff;
+}
+
+.container-home {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.home-text {
+    margin-top: 6rem;
+}
+
+.home-text p {
+    margin-top: 1rem;
+}
+
+#about {
+    height: 400px;
+    background: #666666;
+}
